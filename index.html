@@ -601,7 +601,7 @@
 
         // 2. EMAIL FORWARDING LOGIC
         document.getElementById('contactForm').addEventListener('submit', function(event) {
-            // event.preventDefault(); // Prevent page reload
+            event.preventDefault(); // Prevent page reload
 
             // Get values
             const name = document.getElementById('name').value;
